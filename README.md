@@ -8,4 +8,5 @@
 | ( ) | Tuple | (1, True) |  
 | :: | Show the type | 5 :: Integer | 
 | => | Left part of => is typeclass constraints and right part is actual type | Num a => (a, Bool) |  
-| $ | Application operator. $ has low, right-associative binding precedence, so it sometimes allows parentheses to be omitted; | main = print $ sqrt $ 2 + 3 |  
+| $ | Application operator. $ has low, right-associative binding precedence, so it sometimes allows parentheses to be omitted | main = print $ sqrt $ 2 + 3 |  
+| . | Chain functions | printSqrt = print . sqrt |
